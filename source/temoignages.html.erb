@@ -1,0 +1,24 @@
+---
+title: Témoignages
+---
+
+<div class="container">
+  <div class="testimonials">
+    <div class="row">
+      <h1 class=text-center>Témoignages</h1>
+        <% data.testimonials.each do |testimonial| %>
+          <div class="col-xs-12 col-sm-6 col-md-3 text-center testimonial">
+            <div class="row">
+              <div class="col-xs-3 col-md-12">
+                <%= image_tag testimonial.image, class: "img-circle img-responsive" %>
+              </div>
+              <div class="col-xs-9 col-md-12">
+                <h2><%= testimonial.name %></h2>
+                <p><%= testimonial.comment %></p>
+              </div>
+            </div>
+          </div>
+        <% end %>
+    </div>
+  </div>
+</div>

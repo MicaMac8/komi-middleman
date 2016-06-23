@@ -1,0 +1,15 @@
+- name: Pauline
+  image: pauline.jpg
+  comment: C'est super pratique !
+
+- name: Eden
+  image: eden.jpg
+  comment: Simplifie la vie
+
+- name: Pauline
+  image: pauline.jpg
+  comment: C'est super pratique !
+
+- name: Eden
+  image: eden.jpg
+  comment: Simplifie la vie
