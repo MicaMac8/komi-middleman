@@ -6,10 +6,10 @@
   image: eden.jpg
   comment: Simplifie la vie
 
-- name: Pauline
-  image: pauline.jpg
-  comment: C'est super pratique !
+- name: Philippe
+  image: philippe.jpg
+  comment: Un vrai commis
 
-- name: Eden
-  image: eden.jpg
-  comment: Simplifie la vie
+- name: Doc G
+  image: doc.jpg
+  comment: Facile !
